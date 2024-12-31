@@ -9,5 +9,5 @@ sudo cp -r FiraCode ~/.local/share/fonts
 ```sh
 fc-cache -fv
 fc-list :lang=zh-cn | grep simsun
-fc-list :lang=en | grep roman
+fc-list :lang=en | grep pala
 ```
