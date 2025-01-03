@@ -8,6 +8,8 @@ sudo cp -r FiraCode ~/.local/share/fonts
 #### fc
 ```sh
 fc-cache -fv
+fc-list :lang=zh-cn >chinese.txt
+fc-list :lang=en >english.txt
 fc-list :lang=zh-cn | grep simsun
 fc-list :lang=en | grep pala
 ```
